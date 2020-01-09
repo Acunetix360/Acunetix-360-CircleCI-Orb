@@ -20,10 +20,10 @@ parameters:
     description: The requested scan type. (Incremental,FullWithPrimaryProfile or FullWithSelectedProfile)
     type: string
   user_id:
-    default: ACUNETIX_API_USER_ID
+    default: ACUNETIX_360_API_USER_ID
     description: |
         Acunetix 360 user id which you can find in your Acunetix 360 API settings page.
-        This will be used for the API authentication.ACUNETIX_API_USER_ID environment variable.
+        This will be used for the API authentication.ACUNETIX_360_API_USER_ID environment variable.
     type: env_var_name
   website_id:
     description: The id of the website (target) to scan.

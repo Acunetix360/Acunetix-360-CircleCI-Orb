@@ -1,15 +1,14 @@
 description: "Start the scan on a website (target) using Acunetix 360."
 usage:
   orbs:
-    acunetix360: "acunetix360/scan@1.0.0"
+    acunetix360: "acunetix-360/acunetix-360@1.0.0"
   version: 2.1
   workflows:
     example-workflow:
       jobs:
-        -
-          acunetix360/scan:
+        - acunetix-360/scan:
             api_url: api_url
             # If scan_type is "FullWithPrimaryProfile", you do not need to fill in scanProfile_id
             scanProfile_id: scanprofile_id
             website_id: website_id
-            scan_type : scan_type
+            scan_type: scan_type

@@ -1,6 +1,5 @@
 docker:
-  -
-    environment:
+  - environment:
       TERM: dumb
     image: cimg/base:2019.10
 resource_class: small

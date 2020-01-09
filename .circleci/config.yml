@@ -2,7 +2,7 @@ version: 2.1
 
 orbs:
   orb-tools: circleci/orb-tools@8.5.0
-  acunetix360: acunetix-360/acunetix-360@1.0.0
+  acunetix360: acunetix-360/acunetix-360@dev:alpha
 
 executors:
   ci-base:

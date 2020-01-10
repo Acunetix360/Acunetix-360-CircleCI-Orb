@@ -1,4 +1,4 @@
-# Acunetix 360 Security Scan [![CircleCI](https://circleci.com/gh/acunetix360dev/Acunetix-360-CircleCI-Orb/tree/master.svg?style=svg)](https://circleci.com/gh/acunetix360dev/Acunetix-360-CircleCI-Orb/tree/Alpha) [![CircleCI Community](https://img.shields.io/badge/community-CircleCI%20Discuss-343434.svg)](https://discuss.circleci.com/c/ecosystem/orbs)
+# Acunetix 360 Security Scan [![CircleCI](https://circleci.com/gh/acunetix360dev/Acunetix-360-CircleCI-Orb/tree/master.svg?style=svg)](https://circleci.com/gh/acunetix360dev/Acunetix-360-CircleCI-Orb/tree/master) [![CircleCI Community](https://img.shields.io/badge/community-CircleCI%20Discuss-343434.svg)](https://discuss.circleci.com/c/ecosystem/orbs)
 
 This orb uses Acunetix 360 to scan your web application for security vulnerabilities. It enables security testing in your CircleCI pipeline.
 

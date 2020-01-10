@@ -1,7 +1,7 @@
 description: "Start the scan on a website (target) using Acunetix 360."
 usage:
   orbs:
-    acunetix360: "acunetix-360/acunetix-360@1.0.0"
+    acunetix360: "acunetix-360/acunetix-360@1.1.0"
   version: 2.1
   workflows:
     example-workflow:

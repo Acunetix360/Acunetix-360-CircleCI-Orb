@@ -33,7 +33,7 @@ Example `config.yml`:
 version: 2.1
 
 orbs:
-  acunetix360: acunetix-360/acunetix-360@1.1.2
+  acunetix360: acunetix-360/acunetix-360@1.1.1
 
 workflows:
   scan-workflow:

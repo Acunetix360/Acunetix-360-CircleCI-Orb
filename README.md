@@ -1,4 +1,4 @@
-# Acunetix 360 Security Scan [![CircleCI](https://circleci.com/gh/acunetix360dev/Acunetix-360-CircleCI-Orb/tree/Alpha.svg?style=svg)](https://circleci.com/gh/acunetix360dev/Acunetix-360-CircleCI-Orb/tree/Alpha) [![CircleCI Community](https://img.shields.io/badge/community-CircleCI%20Discuss-343434.svg)](https://discuss.circleci.com/c/ecosystem/orbs)
+# Acunetix 360 Security Scan [![CircleCI](https://circleci.com/gh/acunetix360dev/Acunetix-360-CircleCI-Orb/tree/master.svg?style=svg)](https://circleci.com/gh/acunetix360dev/Acunetix-360-CircleCI-Orb/tree/Alpha) [![CircleCI Community](https://img.shields.io/badge/community-CircleCI%20Discuss-343434.svg)](https://discuss.circleci.com/c/ecosystem/orbs)
 
 This orb uses Acunetix 360 to scan your web application for security vulnerabilities. It enables security testing in your CircleCI pipeline.
 
@@ -33,7 +33,7 @@ Example `config.yml`:
 version: 2.1
 
 orbs:
-  acunetix360: acunetix-360/acunetix-360@1.0.0
+  acunetix360: acunetix-360/acunetix-360@1.1.0
 
 workflows:
   scan-workflow:
@@ -46,7 +46,7 @@ workflows:
           scan_type: ${SCAN_TYPE}
 ```
 
-For more detailed usage for this Orb, please check [here](https://circleci.com/orbs/registry/orb/acunetix360/scan).
+For more detailed usage for this Orb, please check [here](https://circleci.com/orbs/registry/orb/acunetix-360/acunetix-360).
 
 # Help
 

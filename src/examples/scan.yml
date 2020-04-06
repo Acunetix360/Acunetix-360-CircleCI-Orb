@@ -6,7 +6,7 @@ usage:
   workflows:
     example-workflow:
       jobs:
-        - acunetix-360/scan:
+        - acunetix360/scan:
             api_url: api_url
             # If scan_type is "FullWithPrimaryProfile", you do not need to fill in scanProfile_id
             scanProfile_id: scanprofile_id
